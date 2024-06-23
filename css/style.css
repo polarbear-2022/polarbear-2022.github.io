@@ -924,7 +924,15 @@ button {
     border: none;
     border-radius: 4px;
     background-color: rgba(17, 72, 106, 0.9);
+	overflow-y: scroll;
 }
+
+/* РАЗОБРАТЬСЯ
+.nav-item .dropdown .dropdown-menu .dropdown-item {
+	overflow-y: scroll;
+}
+*/
+
 .navbar-collapse .dropdown-item {
     color: #fff;
     text-decoration: none;
@@ -5708,6 +5716,24 @@ ul {
     overflow: hidden;
     position: relative;
 }
+
+.zoo-card-video {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 48px;
+    height: 48px;
+	z-index: 1000;
+}
+.zoo-card-video .fa-video {
+    font-size: 48px;
+	color: #C5E1EC;
+}
+.zoo-card-video .fa-video:hover {
+	color: #8fbedc;
+	cursor: pointer;
+}
+
 .zoo-card-love {
     position: absolute;
     left: 10px;
