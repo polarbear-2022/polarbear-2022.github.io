@@ -5954,11 +5954,11 @@ a.zoo_world_link:hover {
     width: 36px;
     height: 27px;
 }
-.list-world-zoo ul li.australia:before {
-    background-image: url(../images/icons/flags/4x3/au.svg);
-}
 .list-world-zoo ul li.austria:before {
     background-image: url(../images/icons/flags/4x3/at.svg);
+}
+.list-world-zoo ul li.australia:before {
+    background-image: url(../images/icons/flags/4x3/au.svg);
 }
 .list-world-zoo ul li.belgium:before {
     background-image: url(../images/icons/flags/4x3/be.svg);
@@ -5975,6 +5975,9 @@ a.zoo_world_link:hover {
 .list-world-zoo ul li.czech:before {
     background-image: url(../images/icons/flags/4x3/cz.svg);
 }
+.list-world-zoo ul li.germany:before {
+    background-image: url(../images/icons/flags/4x3/de.svg);
+}
 .list-world-zoo ul li.denmark:before {
     background-image: url(../images/icons/flags/4x3/dk.svg);
 }
@@ -5986,9 +5989,6 @@ a.zoo_world_link:hover {
 }
 .list-world-zoo ul li.france:before {
     background-image: url(../images/icons/flags/4x3/fr.svg);
-}
-.list-world-zoo ul li.germany:before {
-    background-image: url(../images/icons/flags/4x3/de.svg);
 }
 .list-world-zoo ul li.great_britain:before {
     background-image: url(../images/icons/flags/4x3/gb.svg);
@@ -6002,11 +6002,11 @@ a.zoo_world_link:hover {
 .list-world-zoo ul li.japan:before {
     background-image: url(../images/icons/flags/4x3/jp.svg);
 }
-.list-world-zoo ul li.kazakhstan:before {
-    background-image: url(../images/icons/flags/4x3/kz.svg);
-}
 .list-world-zoo ul li.korea:before {
     background-image: url(../images/icons/flags/4x3/kr.svg);
+}
+.list-world-zoo ul li.kazakhstan:before {
+    background-image: url(../images/icons/flags/4x3/kz.svg);
 }
 .list-world-zoo ul li.latvia:before {
     background-image: url(../images/icons/flags/4x3/lv.svg);
@@ -6020,17 +6020,17 @@ a.zoo_world_link:hover {
 .list-world-zoo ul li.poland:before {
     background-image: url(../images/icons/flags/4x3/pl.svg);
 }
-.list-world-zoo ul li.singapore:before {
-    background-image: url(../images/icons/flags/4x3/sg.svg);
-}
 .list-world-zoo ul li.sweden:before {
     background-image: url(../images/icons/flags/4x3/se.svg);
 }
-.list-world-zoo ul li.tajikistan:before {
-    background-image: url(../images/icons/flags/4x3/tj.svg);
+.list-world-zoo ul li.singapore:before {
+    background-image: url(../images/icons/flags/4x3/sg.svg);
 }
 .list-world-zoo ul li.thailand:before {
     background-image: url(../images/icons/flags/4x3/th.svg);
+}
+.list-world-zoo ul li.tajikistan:before {
+    background-image: url(../images/icons/flags/4x3/tj.svg);
 }
 .list-world-zoo ul li.ukraine:before {
     background-image: url(../images/icons/flags/4x3/ua.svg);
@@ -6668,11 +6668,15 @@ tbody tr td {
     font-size: 12px !important;
 }
 
-
-
-
-
-
+.section_gradient::before{
+    width: 100%;
+	height:200px;
+    content: " ";
+    background-image: url(../images/bg/section_gradient.png);
+    position: absolute;
+    left: 0;
+    top: -100px;
+}
 
 /*
 .section_gradient {
@@ -6689,19 +6693,3 @@ width: 1000px;
 height: 200px;
 }
 */
-.section_gradient::before{
-    width: 100%;
-	height:200px;
-    content: " ";
-    background-image: url(../images/bg/section_gradient.png);
-    position: absolute;
-    left: 0;
-    top: -100px;
-}
-
-
-
-
-
-
-
