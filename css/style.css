@@ -927,6 +927,18 @@ button {
 	overflow-y: scroll;
 }
 
+/* прокрутка выпадающего меню */
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    .dropdown-menu{
+        height:200px;
+        overflow-y:auto;
+    }
+}
+/* .dropdown-menu {
+ overflow-y:auto; 
+ max-height:80vh
+} */
+
 /* РАЗОБРАТЬСЯ
 .nav-item .dropdown .dropdown-menu .dropdown-item {
 	overflow-y: scroll;
