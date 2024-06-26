@@ -829,6 +829,15 @@ button {
     display: inline-block;
     vertical-align: middle;
 }
+.pdf_big {
+    background-image: url(../images/icons/pdf_big.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 26px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
 .doc {
     background-image: url(../images/icons/doc_v2.png);
     background-repeat: no-repeat;
