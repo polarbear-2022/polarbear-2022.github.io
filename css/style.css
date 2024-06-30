@@ -2040,6 +2040,7 @@ button {
 .postcard .postcard__tagbox .blue.playintarchive,
 .postcard .postcard__tagbox .blue.playrg,
 .postcard .postcard__tagbox .blue.playren,
+.postcard .postcard__tagbox .blue.playng,
 .postcard .postcard__tagbox .blue.playkrasview,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
@@ -2082,6 +2083,10 @@ button {
 }
 .postcard .postcard__tagbox .blue.playtorrent:hover {
     background: #75992b;
+}
+.postcard .postcard__tagbox .blue.playng:hover {
+    background: #FFD511;
+	color: #000;
 }
 .postcard .postcard__tagbox .blue.playsmotrim:hover {
     background: rgb(155, 0, 31);
@@ -2345,6 +2350,7 @@ button {
     flex-shrink: 0;
     z-index: 10;
 }
+
 /*** СПИСОК СЕРИЙ ***/
 .list-series {
     max-width: 80rem;
