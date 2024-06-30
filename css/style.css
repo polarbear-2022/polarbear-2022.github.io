@@ -2334,7 +2334,17 @@ button {
     flex-shrink: 0;
     z-index: 10;
 }
-
+.pbi {
+    display: block;
+    margin-bottom: 5px;
+    background-image: url(../images/pbi-white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 62px;
+    flex-shrink: 0;
+    z-index: 10;
+}
 /*** СПИСОК СЕРИЙ ***/
 .list-series {
     max-width: 80rem;
