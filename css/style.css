@@ -1779,6 +1779,18 @@ button {
     color: #8e8629;
     text-decoration: none;
 }
+.postcard__preview-txt dt {
+    color: #8fbedc;
+    font-family: "Graphik LCG", sans-serif;
+	font-size: 1.1rem;
+	margin: 0 0 5px 0;
+}
+.postcard__preview-txt dl {
+	margin: 0 0 5px 0;
+}
+.postcard__preview-txt dd {
+	margin: 0 0 15px 0;
+}
 .postcard h1,
 .postcard .h1 {
     margin-bottom: 0.1rem;
