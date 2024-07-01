@@ -2054,6 +2054,7 @@ button {
 .postcard .postcard__tagbox .blue.playren,
 .postcard .postcard__tagbox .blue.playng,
 .postcard .postcard__tagbox .blue.playkrasview,
+.postcard .postcard__tagbox .blue.playokko,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
@@ -2121,6 +2122,10 @@ button {
 .postcard .postcard__tagbox .blue.playren:hover {
     background: rgb(251,45,0);
     background: linear-gradient(135deg, rgba(251,45,0,1) 0%, rgba(254,83,0,1) 60%);
+}
+.postcard .postcard__tagbox .blue.playokko:hover {
+    background: rgb(73,18,168);
+    background: linear-gradient(135deg, rgba(73,18,168,1) 0%, rgba(34,17,59,1) 73%);
 }
 .blue .postcard__title {
     color: #fff;
