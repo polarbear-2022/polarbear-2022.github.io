@@ -2055,6 +2055,7 @@ button {
 .postcard .postcard__tagbox .blue.playng,
 .postcard .postcard__tagbox .blue.playkrasview,
 .postcard .postcard__tagbox .blue.playokko,
+.postcard .postcard__tagbox .blue.playrtd,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
@@ -2096,6 +2097,9 @@ button {
 }
 .postcard .postcard__tagbox .blue.playtorrent:hover {
     background: #75992b;
+}
+.postcard .postcard__tagbox .blue.playrtd:hover {
+    background: #77BC1F;
 }
 .postcard .postcard__tagbox .blue.playng:hover {
     background: #FFD511;
@@ -2364,6 +2368,17 @@ button {
     background-size: cover;
     height: 48px;
     width: 62px;
+    flex-shrink: 0;
+    z-index: 10;
+}
+.rtdoc {
+    display: block;
+    margin-bottom: 5px;
+    background-image: url(../images/rtdoc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 172px;
     flex-shrink: 0;
     z-index: 10;
 }
