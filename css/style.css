@@ -287,6 +287,36 @@ body {
     padding: 10vh 0;
 }
 
+.full-width-doc {
+    padding-left: 0;
+    padding-right: 0;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20vh;
+}
+@media screen and (max-width: 916px) and (orientation: landscape) {
+    .full-width-doc {
+        padding-bottom: 60vh;
+    }
+}
+@media screen and (max-width: 359px) {
+    .full-width-doc {
+        padding-bottom: 40vh;
+    }
+}
+
+.section_bg_kermod::before{
+    width: 100%;
+	height:700px;
+    content: " ";
+    background-image: url(../images/bg/kermod.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: absolute;
+    left: 0;
+    top: -200px;
+}
+
 .full-width-info {
     padding-left: 0;
     padding-right: 0;
@@ -925,6 +955,11 @@ button {
 @media (max-width: 400px) {
     #main-logo {
         font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 359px) {
+    #main-logo {
+        font-size: 1rem;
     }
 }
 .navbar-dark {
@@ -1738,6 +1773,32 @@ button {
     background: #f3f5f7;
 }
 */
+
+.postcard_kermod {
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 10px;
+    margin: 0 0 2rem 0;
+    overflow: hidden;
+    position: relative;
+    color: #FFFBD4;
+}
+.postcard_kermod h2 {
+    font-size: 2.8em;
+}
+.postcard_kermod a:hover {
+    color: rgba(163, 155, 69, 1);
+}
+.postcard_kermod .info {
+    padding: 10px;
+	background-color: rgba(163, 155, 69, 0.5);
+    border-radius: 4px;
+    font-weight: 700;
+}
+.postcard_kermod .info em {
+    font-size: 0.8em;
+}
+
 .postcard {
     flex-wrap: wrap;
     display: flex;
@@ -1804,7 +1865,7 @@ button {
     line-height: 1;
 }
 .postcard .small {
-    font-size: 80%;
+    font-size: 90%;
 }
 .postcard .postcard__title {
     font-size: 1.75rem;
@@ -6741,6 +6802,11 @@ label {
 	background-color: rgba(255, 255, 255, 0.03);
 	text-align: center;
 	transition: all 250ms;
+}
+@media screen and (max-width: 359px) {
+	label {
+	padding: 0;
+}
 }
 label:last-of-type {border: none; }
 label:hover {
