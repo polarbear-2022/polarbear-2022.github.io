@@ -3952,6 +3952,35 @@ fieldset[disabled] .btn-odnoklassniki.focus {
     font-size: 9px;
 }
 
+/***  IMDd РЕЙТИНГ 2 ***/
+.imdb-block {
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.imdb-block a {
+  color: #000;
+}
+.imdb-block a:hover {
+  color: #000;
+}
+.imdb-logo, tab-container tab-content .imdb-logo {
+  font: .9em Impact, HelveticaNeue-CondensedBold, sans-serif;
+  color: #000;
+  text-shadow: 0 0 0.15em #fff;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.25em 0.35em;
+  border-radius: 0.15em;
+  background: radial-gradient(#ffffb8, #ce981d);
+  margin-bottom: 2px;
+}
+.imdb-logo:hover {
+  background: radial-gradient(#ffffeb, #e3b03b);
+}
+
 /* РЕЙТИНГ MPAA */
 .mpaa {
     color: rgba(255, 255, 255, 0.9);
@@ -6844,6 +6873,10 @@ input#tabToggle01_4:checked ~ tab-content:not(:nth-of-type(1)),
 input#tabToggle02_4:checked ~ tab-content:not(:nth-of-type(2)),
 input#tabToggle03_4:checked ~ tab-content:not(:nth-of-type(3)),
 input#tabToggle04_4:checked ~ tab-content:not(:nth-of-type(4)) {display: none;}
+
+input#tabToggle01_5:checked ~ tab-content:not(:nth-of-type(1)),
+input#tabToggle02_5:checked ~ tab-content:not(:nth-of-type(2)),
+input#tabToggle03_5:checked ~ tab-content:not(:nth-of-type(3)) {display: none;}
 
 /* ЦЕНТРИРОВАНИЕ ЭЛЕМЕНТОВ */
 .centered {
