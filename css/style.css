@@ -2394,6 +2394,17 @@ button {
     flex-shrink: 0;
     z-index: 10;
 }
+.bbc_e {
+    display: block;
+    margin-bottom: 5px;
+    background-image: url(../images/bbc_e.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 277px;
+    flex-shrink: 0;
+    z-index: 10;
+}
 .dc {
     display: block;
     margin-bottom: 5px;
@@ -7084,3 +7095,14 @@ width: 1000px;
 height: 200px;
 }
 */
+/*
+.bg_footer {
+    background-image: url(../images/bg/bg_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+}
+*/
+
+
+
