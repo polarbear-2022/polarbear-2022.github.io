@@ -3976,7 +3976,7 @@ fieldset[disabled] .btn-odnoklassniki.focus {
 .imdb-block a:hover {
   color: #000;
 }
-.imdb-logo, tab-container tab-content .imdb-logo {
+.imdb-logo, tab-container tab-content .imdb-logo, dt .imdb-logo {
   font: .9em Impact, HelveticaNeue-CondensedBold, sans-serif;
   color: #000;
   text-shadow: 0 0 0.15em #fff;
