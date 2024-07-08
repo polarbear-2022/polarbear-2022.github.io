@@ -2360,7 +2360,7 @@ button {
     color: #000;
     font-weight: 800;
 }
-
+.col-xs-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.strong.text-white>span {font-weight:normal;}
 .ng {
     display: block;
     margin-bottom: 5px;
