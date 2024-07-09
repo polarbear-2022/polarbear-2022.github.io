@@ -2360,7 +2360,9 @@ button {
     color: #000;
     font-weight: 800;
 }
+
 .col-xs-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.strong.text-white>span {font-weight:normal;}
+
 .ng {
     display: block;
     margin-bottom: 5px;
@@ -4017,6 +4019,35 @@ fieldset[disabled] .btn-odnoklassniki.focus {
     font-weight: 600;
     line-height: 17px;
 }
+.age {
+    display: inline-block;
+	width: fit-content;
+    width: min-content;
+	color: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    padding-block-start: 3px;
+    padding-block-end: 3px;
+    padding-inline-start: 4px;
+    padding-inline-end: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.list-wrapper li span .age {
+    display: inline-block;
+	width: fit-content;
+    width: min-content;
+	color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    padding-block-start: 1px;
+    padding-block-end: 1px;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+	margin-left: 10px;
+    font-size: 15px !important;
+    font-weight: 600;
+    line-height: 15px;
+}
 
 /* КНОПКА ФОНОВОЙ МУЗЫКИ */
 #bgmusic_default,
@@ -4556,6 +4587,25 @@ input {
     font-size: 18px;
     font-weight: 700;
 }
+
+.list-wrapper ol li.kids:after {
+    content: "0+";
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    left: -42px;
+    width: 32px;
+    height: 32px;
+    background: #43A047;
+    color: #fff;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .list-wrapper ol li:nth-child(-n + 9):before {
     content: "0" counter(num);
 }
