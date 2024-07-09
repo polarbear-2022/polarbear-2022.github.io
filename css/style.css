@@ -1773,6 +1773,9 @@ button {
     background: #f3f5f7;
 }
 */
+.postcard h1 {
+    z-index: 10;
+}
 
 .postcard_kermod {
     flex-wrap: wrap;
@@ -6949,6 +6952,12 @@ input#tabToggle04_4:checked ~ tab-content:not(:nth-of-type(4)) {display: none;}
 input#tabToggle01_5:checked ~ tab-content:not(:nth-of-type(1)),
 input#tabToggle02_5:checked ~ tab-content:not(:nth-of-type(2)),
 input#tabToggle03_5:checked ~ tab-content:not(:nth-of-type(3)) {display: none;}
+
+input#tabToggle01_6:checked ~ tab-content:not(:nth-of-type(1)),
+input#tabToggle02_6:checked ~ tab-content:not(:nth-of-type(2)),
+input#tabToggle03_6:checked ~ tab-content:not(:nth-of-type(3)),
+input#tabToggle04_6:checked ~ tab-content:not(:nth-of-type(4)),
+input#tabToggle05_6:checked ~ tab-content:not(:nth-of-type(5)) {display: none;}
 
 /* ЦЕНТРИРОВАНИЕ ЭЛЕМЕНТОВ */
 .centered {
