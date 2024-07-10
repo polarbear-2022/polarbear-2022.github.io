@@ -5604,8 +5604,7 @@ p.characteristic {
     transform: translate(-50%, -50%);
 }
 
-.how-it-works div p,
-ul {
+.how-it-works div p {
     line-height: 1.1;
 }
 .how-it-works.row .col-2 {
