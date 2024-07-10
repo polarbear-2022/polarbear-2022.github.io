@@ -7174,11 +7174,11 @@ tbody tr td {
     list-style-type: none;
 }
 .list_relax li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .list_relax li div {
-    padding: 5px 0 !important;
+    padding: 2px 0 !important;
 }
 
 /*
