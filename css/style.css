@@ -921,6 +921,16 @@ button {
     vertical-align: middle;
 }
 
+.fandom {
+    background-image: url(../images/icons/fandom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .webcam {
     background-image: url(../images/icons/webcam.png);
     background-repeat: no-repeat;
