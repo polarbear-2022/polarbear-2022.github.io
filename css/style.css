@@ -1931,6 +1931,13 @@ button {
 .postcard .postcard__img_link {
     display: contents;
 }
+
+/*
+.postcard .hover-image .postcard__img_link {
+    display: contents;
+}
+*/
+
 .postcard .postcard__bar, .postcard .postcard__bar__gbr {
     width: 50px;
     height: 10px;
@@ -2159,6 +2166,7 @@ button {
 .postcard .postcard__tagbox .blue.playkrasview,
 .postcard .postcard__tagbox .blue.playokko,
 .postcard .postcard__tagbox .blue.playrtd,
+.postcard .postcard__tagbox .blue.playnepu,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
@@ -2203,6 +2211,9 @@ button {
 }
 .postcard .postcard__tagbox .blue.playrtd:hover {
     background: #77BC1F;
+}
+.postcard .postcard__tagbox .blue.playnepu:hover {
+    background: #C700A6;
 }
 .postcard .postcard__tagbox .blue.playng:hover {
     background: #FFD511;
@@ -2851,18 +2862,18 @@ tbody tr td {
     border-radius: 0;
 }
 
-#modal_series.modal-fullscreen-xl .modal-body {
+#modal_series.modal-fullscreen-xl .modal-body, #modal_series_arctic_vets.modal-fullscreen-xl .modal-body {
     overflow-y: auto;
     background-color: #186b9d;
     background-image: url(../images/bg/bg_snow.png);
     border: none;
 }
-#modal_series.modal-fullscreen-xl .modal-header {
+#modal_series.modal-fullscreen-xl .modal-header, #modal_series_arctic_vets.modal-fullscreen-xl .modal-header {
     background-color: #186b9d;
     border: none;
     border-radius: 0;
 }
-#modal_series.modal-fullscreen-xl .modal-footer {
+#modal_series.modal-fullscreen-xl .modal-footer, #modal_series_arctic_vets.modal-fullscreen-xl .modal-footer {
     background-color: #186b9d;
     border: none;
     border-radius: 0;
@@ -7217,6 +7228,3 @@ height: 200px;
     background-position: center 50%;
 }
 */
-
-
-
