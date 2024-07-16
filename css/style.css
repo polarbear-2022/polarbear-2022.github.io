@@ -2410,6 +2410,17 @@ button {
 
 .col-xs-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.strong.text-white>span {font-weight:normal;}
 
+.ap {
+    display: block;
+    margin-bottom: 5px;
+    background-image: url(../images/ap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 100px;
+    flex-shrink: 0;
+    z-index: 10;
+}
 .greenpeace {
     display: block;
     margin-bottom: 5px;
