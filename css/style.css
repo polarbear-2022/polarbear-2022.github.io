@@ -358,6 +358,10 @@ h1 {
         font-size: 2rem;
     }
 }
+h6 {
+    font-size: 1rem;
+    font-weight: bold;
+}
 .heading-video {
     font-family: "Graphik LCG";
     font-size: 3rem;
@@ -7038,6 +7042,9 @@ input#tabToggle03_10:checked ~ tab-content:not(:nth-of-type(3)) {display: none;}
 input#tabToggle01_11:checked ~ tab-content:not(:nth-of-type(1)),
 input#tabToggle02_11:checked ~ tab-content:not(:nth-of-type(2)),
 input#tabToggle03_11:checked ~ tab-content:not(:nth-of-type(3)) {display: none;}
+
+input#tabToggle01_12:checked ~ tab-content:not(:nth-of-type(1)),
+input#tabToggle02_12:checked ~ tab-content:not(:nth-of-type(2)) {display: none;}
 
 /* ЦЕНТРИРОВАНИЕ ЭЛЕМЕНТОВ */
 .centered {
