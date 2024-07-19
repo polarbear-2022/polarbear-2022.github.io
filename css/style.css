@@ -362,6 +362,13 @@ h6 {
     font-size: 1rem;
     font-weight: bold;
 }
+h6 a {
+	color: #C5E1EC;
+}
+h6 a:hover {
+    cursor: pointer;
+	color: #C8D9EB;
+}
 .heading-video {
     font-family: "Graphik LCG";
     font-size: 3rem;
@@ -3253,6 +3260,40 @@ tbody tr td {
     transform: translateX(20px) translateY(20px) rotate(-45deg);
 }
 
+/* СПИСОК В МОДАЛЬНОМ ОКНЕ */
+.modal_list ul li {
+	line-height: 1.1;
+}
+.modal_list .modal-content a {
+    color: #186b9d;
+	font-weight: 700;
+	text-decoration: none;
+}
+.modal_list .modal-content a:hover {
+    color: #13547c;
+    text-decoration: none;
+}
+.modal_list .modal-content {
+    box-sizing: border-box;
+    color: #186b9d !important;
+    background-color: #fff;
+	
+}
+.modal_list .modal-content.modal_content_gates_of_the_arctic_Modal {
+	background-image: url(../images/other/gates_of_the_arctic/gates_of_the_arctic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.modal_list .modal-header {
+    color: #186b9d !important;
+}
+.modal_list .modal-footer {
+    border: none;
+}
+.modal_list .modal-footer .cl-btn-4 {
+    background: #186b9d;
+}
+
 /* --------------------------- /////////// ССЫЛКИ /////////// --------------------------- */
 /*** 2 СТИЛЯ ССЫЛОК ***/
 .link_style_1 a {
@@ -3827,6 +3868,93 @@ fieldset[disabled] .btn-odnoklassniki.focus {
 .default-btn-one:focus span {
     width: 225%;
     height: 562.5px;
+}
+
+/*<!-- HTML !--><button class="button-60" role="button">Button 60</button>*/
+.button-60 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #186b9d;
+  border-radius: .375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #186b9d;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  height: 2.5em;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.button-60:active {
+  border-color: #13547c;
+  outline: 0;
+}
+.button-60:focus {
+  border-color: #13547c;
+  outline: 0;
+}
+.button-60:hover {
+  border-color: #13547c;
+}
+.button-60:focus:not(:active) {
+  box-shadow: rgba(24, 107, 157, .25) 0 0 0 .125em;
+}
+
+/*<!-- HTML !--> <button class="button-59" role="button">Button 59</button>*/
+.button-59 {
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-59:focus {
+  color: #171e29;
+}
+.button-59:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
 }
 /* --------------------------- /////////// END КНОПКИ /////////// --------------------------- */
 
@@ -6945,7 +7073,14 @@ tab-container {
 	/*border: solid rgba(255,255,255,0.03);
 	border-radius: .5em;*/
 }
-
+/*
+tab-container-2 {
+	display: grid;
+	margin-top: 5px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr;
+}
+*/
 @media (max-width: 639px) {
 tab-container {
 	display: grid;
@@ -7045,6 +7180,9 @@ input#tabToggle03_11:checked ~ tab-content:not(:nth-of-type(3)) {display: none;}
 
 input#tabToggle01_12:checked ~ tab-content:not(:nth-of-type(1)),
 input#tabToggle02_12:checked ~ tab-content:not(:nth-of-type(2)) {display: none;}
+
+input#tabToggle01_13:checked ~ tab-content:not(:nth-of-type(1)),
+input#tabToggle02_13:checked ~ tab-content:not(:nth-of-type(2)) {display: none;}
 
 /* ЦЕНТРИРОВАНИЕ ЭЛЕМЕНТОВ */
 .centered {
@@ -7417,4 +7555,3 @@ height: 200px;
 	opacity: 0.35;
 	transform: scale(1);
 }
-
