@@ -3176,7 +3176,7 @@ tbody tr td {
     height: 6px;
     background: #bfe2ff;
     position: absolute;
-    top: 48%;
+    top: 45%;
     left: 10%;
     transform: rotate(45deg);
     transition: all 0.3s ease-out;
@@ -3280,6 +3280,11 @@ tbody tr td {
 	
 }
 .modal_list .modal-content.modal_content_gates_of_the_arctic_Modal {
+	background-image: url(../images/other/gates_of_the_arctic/gates_of_the_arctic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.modal_list .modal_content_wildest_europe_e1_Modal {
 	background-image: url(../images/other/gates_of_the_arctic/gates_of_the_arctic.png);
 	background-repeat: no-repeat;
 	background-size: cover;
