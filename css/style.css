@@ -2180,6 +2180,7 @@ button {
 .postcard .postcard__tagbox .blue.playokko,
 .postcard .postcard__tagbox .blue.playrtd,
 .postcard .postcard__tagbox .blue.playnepu,
+.postcard .postcard__tagbox .blue.playbbcplay,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
@@ -2257,6 +2258,10 @@ button {
 .postcard .postcard__tagbox .blue.playokko:hover {
     background: rgb(73,18,168);
     background: linear-gradient(135deg, rgba(73,18,168,1) 0%, rgba(34,17,59,1) 73%);
+}
+.postcard .postcard__tagbox .blue.playbbcplay:hover {
+    background: #0D0019;
+    background-image: linear-gradient(to left bottom, #b40070, #8e1368, #69195c, #48184b, #2b1337, #241132, #1e0f2e, #190c29, #221035, #2d1242, #39144d, #471459);
 }
 .blue .postcard__title {
     color: #fff;
