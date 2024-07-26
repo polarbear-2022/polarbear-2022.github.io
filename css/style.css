@@ -3325,7 +3325,9 @@ tbody tr td {
     box-sizing: border-box;
     color: #186b9d !important;
     background-color: #fff;
-	
+}
+.modal_list .modal-content .p-quote {
+    color: #167cbb;
 }
 .modal_list .modal-content.modal_content_gates_of_the_arctic_Modal {
 	background-image: url(../images/other/gates_of_the_arctic/gates_of_the_arctic.png);
@@ -3344,6 +3346,11 @@ tbody tr td {
 }
 .modal_list .modal_content_incredible_animal_journeys_Modal {
 	background-image: url(../images/other/incredible_animal_journeys/p_p_modal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.modal_list .modal_content_abraham_joffe_Modal {
+	background-image: url(../images/other/ghosts_of_the_arctic/gota_modal.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
