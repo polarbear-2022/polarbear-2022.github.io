@@ -308,9 +308,9 @@ body {
     }
 }
 
-.section_bg_kermod::before{
+.section_bg_kermod::before {
     width: 100%;
-	height:700px;
+	height: 700px;
     content: " ";
     background-image: url(../images/bg/kermod.png);
 	background-repeat: no-repeat;
@@ -318,6 +318,18 @@ body {
     position: absolute;
     left: 0;
     top: -200px;
+}
+.section_bg_kermod::after {
+    width: 100%;
+	height: 900px;
+    content: " ";
+    background-image: url(../images/bg/kermod_bottom-min.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+	z-index: 0;
 }
 
 .full-width-info {
@@ -1859,6 +1871,7 @@ button {
 }
 .postcard.gbr {
     background-color: #A39B45;
+	z-index: 1;
 }
 .postcard .t-dark {
     color: #dfe6ec;
