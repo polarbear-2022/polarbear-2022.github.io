@@ -2211,6 +2211,8 @@ button {
 .postcard .postcard__tagbox .blue.playnepu,
 .postcard .postcard__tagbox .blue.playbbcplay,
 .postcard .postcard__tagbox .blue.playfmovies,
+.postcard .postcard__tagbox .blue.playgoogledrive,
+.postcard .postcard__tagbox .blue.playlordserial,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
@@ -2284,6 +2286,9 @@ button {
 .postcard .postcard__tagbox .blue.playrg:hover {
     background: #FF8B23;
 }
+.postcard .postcard__tagbox .blue.playlordserial:hover {
+    background: #43C230;
+}
 .postcard .postcard__tagbox .blue.playren:hover {
     background: rgb(251,45,0);
     background: linear-gradient(135deg, rgba(251,45,0,1) 0%, rgba(254,83,0,1) 60%);
@@ -2295,6 +2300,10 @@ button {
 .postcard .postcard__tagbox .blue.playbbcplay:hover {
     background: #0D0019;
     background-image: linear-gradient(to left bottom, #b40070, #8e1368, #69195c, #48184b, #2b1337, #241132, #1e0f2e, #190c29, #221035, #2d1242, #39144d, #471459);
+}
+.postcard .postcard__tagbox .blue.playgoogledrive:hover {
+    background: #2882fb;
+	background-image: linear-gradient(to right top, #ffd14f, #dbcc4a, #b9c64b, #97be50, #77b557, #57b26c, #34ae80, #00a991, #00a7b4, #00a1d9, #0096f5, #2882fb);
 }
 .blue .postcard__title {
     color: #fff;
