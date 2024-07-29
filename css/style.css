@@ -1901,6 +1901,9 @@ button {
     color: #8e8629;
     text-decoration: none;
 }
+.postcard__preview-txt h5 a {
+    font-family: "Graphik LCG", sans-serif;
+}
 .postcard__preview-txt dt {
     color: #8fbedc;
     font-family: "Graphik LCG", sans-serif;
@@ -2681,6 +2684,25 @@ button {
     margin-bottom: .8rem;
 }
 
+/*** СТИЛИ ДЛЯ КНОПОК В СПИСКЕ В МОД.ОКНЕ НА ВЕСЬ ЭКРАН ***/
+.list-series li .postcard {
+    background: none;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+    margin: 0;
+}
+.list-series li .postcard__text:before {
+    display: none;
+}
+.list-series li .postcard .postcard__text {
+    padding: 0;
+    width: 100%;
+}
+.list-series li .postcard__tagbox li:after {
+    display: none;
+}
+
 .dog_and_cat {
     height: auto;
     display: block;
@@ -2943,18 +2965,24 @@ tbody tr td {
     border-radius: 0;
 }
 
-#modal_series.modal-fullscreen-xl .modal-body, #modal_series_arctic_vets.modal-fullscreen-xl .modal-body {
+#modal_series.modal-fullscreen-xl .modal-body,
+#modal_series_arctic_vets.modal-fullscreen-xl .modal-body,
+#modal_series_tnot.modal-fullscreen-xl .modal-body {
     overflow-y: auto;
     background-color: #186b9d;
     background-image: url(../images/bg/bg_snow.png);
     border: none;
 }
-#modal_series.modal-fullscreen-xl .modal-header, #modal_series_arctic_vets.modal-fullscreen-xl .modal-header {
+#modal_series.modal-fullscreen-xl .modal-header,
+#modal_series_arctic_vets.modal-fullscreen-xl .modal-header,
+#modal_series_tnot.modal-fullscreen-xl .modal-header {
     background-color: #186b9d;
     border: none;
     border-radius: 0;
 }
-#modal_series.modal-fullscreen-xl .modal-footer, #modal_series_arctic_vets.modal-fullscreen-xl .modal-footer {
+#modal_series.modal-fullscreen-xl .modal-footer,
+#modal_series_arctic_vets.modal-fullscreen-xl .modal-footer,
+#modal_series_tnot.modal-fullscreen-xl .modal-footer {
     background-color: #186b9d;
     border: none;
     border-radius: 0;
@@ -3225,6 +3253,12 @@ tbody tr td {
     z-index: 200;
     text-indent: -9999px;
     cursor: pointer;
+}
+@media (max-width: 480px) {
+    .cl-btn-4 {
+        width: 30px;
+        height: 30px;
+    }
 }
 .cl-btn-4:before,
 .cl-btn-4:after {
