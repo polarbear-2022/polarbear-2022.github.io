@@ -107,12 +107,6 @@ text-shadow: none;
 /* --------------------------- /////////// I. ОБЩИЕ СТИЛИ /////////// --------------------------- */
 
 /* ЭКСПЕРИМЕНТАЛЬНАЯ ТЕНЬ ТЕКСТА */
-.highlighted-text-shadow {
-    text-shadow:
-      /* regular text-shadow */ 0 0.15ch 15px var(--shadow), /* text-shadow highlight */ 0 -2px 0 var(--highlight);
-    color: var(--text);
-}
-
 :root {
     --hue: 320; /* change me */
     --bg: oklch(35% 0.3 var(--hue));
@@ -120,11 +114,30 @@ text-shadow: none;
     --shadow: oklch(70% 0.1 233);
     --highlight: oklch(70% 0.1 233);
 }
-
+.highlighted-text-shadow {
+    text-shadow:
+      /* regular text-shadow */ 0 0.15ch 15px var(--shadow), /* text-shadow highlight */ 0 -2px 0 var(--highlight);
+    color: var(--text);
+}
 .highlighted-text-shadow-2 {
     text-shadow:
       /* regular text-shadow */ 0 0.15ch 15px oklch(71.7% 0.014 82.4), /* text-shadow highlight */ 0 -2px 0 oklch(71.7% 0.014 82.4);
     color: oklch(95.31% 0.003 67.78);
+}
+.highlighted-text-shadow-3 {
+    text-shadow:
+      /* regular text-shadow */ 0 0.15ch 15px oklch(67.86% 0.108 103.99), /* text-shadow highlight */ 0 -2px 0 oklch(51.62% 0.091 132.42503970321184);
+    color: oklch(51.62% 0.091 132.42503970321184);
+}
+.highlighted-text-shadow-4 {
+    text-shadow:
+      /* regular text-shadow */ 0 0.15ch 15px oklch(97.12% 0.013642896992950657 258.34460388699216), /* text-shadow highlight */ 0 -2px 0 oklch(97.12% 0.013642896992950657 258.34460388699216);
+    color: oklch(97.12% 0.013642896992950657 258.34460388699216);
+}
+.highlighted-text-shadow-5 {
+    text-shadow:
+      /* regular text-shadow */ 0 0.15ch 15px oklch(77.87% 0.066 236.72), /* text-shadow highlight */ 0 -2px 0 oklch(97.12% 0.013642896992950657 258.34460388699216);
+    color: oklch(97.12% 0.013642896992950657 258.34460388699216);
 }
 
 /* СКРОЛЛБАР */
@@ -308,6 +321,10 @@ body {
     }
 }
 
+.section_bg_kermod {
+    position: relative;
+}
+
 .section_bg_kermod::before {
     width: 100%;
 	height: 700px;
@@ -319,6 +336,7 @@ body {
     left: 0;
     top: -200px;
 }
+
 .section_bg_kermod::after {
     width: 100%;
 	height: 900px;
@@ -328,7 +346,7 @@ body {
 	background-size: cover;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -200px;
 	z-index: 0;
 }
 
@@ -1795,11 +1813,15 @@ button {
 }
 /* --------------------------- /////////// END OST SECTION /////////// --------------------------- */
 
-/* --------------------------- /////////// X. OTHERDOCK SECTION /////////// --------------------------- */
-#otherdock-section {
+/* --------------------------- /////////// X. OTHERDOCK SECTION, OTHER ANIMALS SECTION /////////// --------------------------- */
+#otherdock-section, #otheranimals-section {
     font-family: "Montserrat", sans-serif;
     /*background-color: #186B9D;
     background-image: url(../images/bg/bg_snow.png);*/
+}
+.otheranimals_title {
+    display: block;
+    position: relative;
 }
 /* --------------------------- /////////// END OTHERDOCK SECTION /////////// --------------------------- */
 
@@ -1813,6 +1835,16 @@ button {
     background-size: auto;
 	position: relative;
 }
+/*
+#rainforest-section {
+font-family: "Montserrat", sans-serif;
+background-color: #889F8B;
+background: url(../images/bg/kermod_bottom.png) center bottom/contain no-repeat,
+            url(../images/bg/bg_rainforest.jpg) repeat;
+position: relative;
+}
+*/
+
 /* --------------------------- /////////// END RAINFOREST SECTION /////////// --------------------------- */
 
 /* --------------------------- /////////// X. 1. OTHERDOCK SECTION CARDS /////////// --------------------------- */
@@ -1827,7 +1859,6 @@ button {
 .postcard h1 {
     z-index: 10;
 }
-
 .postcard_kermod {
     flex-wrap: wrap;
     display: flex;
@@ -7672,3 +7703,9 @@ height: 200px;
 	transform: scale(1);
 }
 
+/*** ВЫПАДЕНИЕ ПРИ НАВЕДЕНИИ ***/
+/*
+ul.navbar-nav li.nav-item:hover > .dropdown-menu {
+display: block;
+}
+*/
