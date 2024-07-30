@@ -244,8 +244,8 @@
       <div class="collapse navbar-collapse supermenu" id="navbarSupportedContent">
        <ul class="navbar-nav ml-auto">
         <!-- Dropdown Menu -->
-        <li class="nav-item dropdown mr-3">
-         <a class="nav-link dropdown-toggle page-scroll" style="margin-top: 1px;" href="#" data-toggle="dropdown" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ОГЛАВЛЕНИЕ:</a>
+        <li class="nav-item dropdown my-auto mr-3">
+         <a class="nav-link dropdown-toggle page-scroll" href="#" data-toggle="dropdown" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ОГЛАВЛЕНИЕ:</a>
          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#info_pb"><span class="item-text">Общее описание</span></a>
           <div class="dropdown-items-divide-hr"></div>
@@ -272,7 +272,7 @@
           <a class="dropdown-item" href="#petitions"><span class="item-text">Петиции</span></a>
          </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item my-auto">
          <a class="nav-link" href="index.html">НАЗАД <i class="fa-solid fa-arrow-right"></i></a>
         </li>
        </ul>
@@ -8962,5 +8962,15 @@
     document.getElementById("food06").style.backgroundColor = "#00527f";
    }
   </script>
+
+<!-- ВЫПАДЕНИЕ ПРИ НАВЕДЕНИИ -->
+<script>
+jQuery('ul.navbar-nav > li').hover(function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+}, function() {
+  jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+})
+</script>
+
  </body>
 </html>
