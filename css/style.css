@@ -7335,6 +7335,9 @@ input#tabToggle02_12:checked ~ tab-content:not(:nth-of-type(2)) {display: none;}
 input#tabToggle01_13:checked ~ tab-content:not(:nth-of-type(1)),
 input#tabToggle02_13:checked ~ tab-content:not(:nth-of-type(2)) {display: none;}
 
+input#tabToggle01_14:checked ~ tab-content:not(:nth-of-type(1)),
+input#tabToggle02_14:checked ~ tab-content:not(:nth-of-type(2)) {display: none;}
+
 /* ЦЕНТРИРОВАНИЕ ЭЛЕМЕНТОВ */
 .centered {
     float: none;
