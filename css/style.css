@@ -2247,6 +2247,7 @@ position: relative;
 .postcard .postcard__tagbox .blue.playfmovies,
 .postcard .postcard__tagbox .blue.playgoogledrive,
 .postcard .postcard__tagbox .blue.playlordserial,
+.postcard .postcard__tagbox .blue.playmega,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
@@ -2255,6 +2256,9 @@ position: relative;
 }
 .postcard .postcard__tagbox .blue.playintarchive:hover {
     background: #222222;
+}
+.postcard .postcard__tagbox .blue.playmega:hover {
+    background: #D31B00;
 }
 .postcard .postcard__tagbox .blue.playok:hover {
     background: #ff7700;
