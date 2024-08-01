@@ -182,6 +182,10 @@ text-shadow: none;
 .coloredgbr {
     color: #FFFBD4;
 }
+.postcard__title.blue.coloredhunt {
+    /*color: #BD322F;*/
+	color: #141b1f;
+}
 .postcard__text .postcard__title.blue.coloredkids {
     color: #FFBC8C;
 }
@@ -252,6 +256,12 @@ a.info_link_gbr {
 a.disabled {
     pointer-events: none;
     cursor: default;
+}
+a.hunt_link {
+    color: #282E32;
+}
+a.hunt_link:hover {
+    color: #141b1f;
 }
 /* -Resets- */
 html,
