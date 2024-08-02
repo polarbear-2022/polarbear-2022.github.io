@@ -2237,6 +2237,7 @@ position: relative;
     background-image: linear-gradient(30deg, rgba(121, 221, 9, 0.1), transparent 50%);
 }
 
+.postcard .postcard__tagbox .blue.play24tv,
 .postcard .postcard__tagbox .blue.playok,
 .postcard .postcard__tagbox .blue.playyt,
 .postcard .postcard__tagbox .blue.playvk,
@@ -2264,11 +2265,16 @@ position: relative;
 .postcard .postcard__tagbox .blue.playgoogledrive,
 .postcard .postcard__tagbox .blue.playlordserial,
 .postcard .postcard__tagbox .blue.playmega,
+.postcard .postcard__tagbox .blue.playsmotreshka,
+.postcard .postcard__tagbox .blue.playwink,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
 .postcard .postcard__tagbox .blue.play:hover {
     background: #80aad7;
+}
+.postcard .postcard__tagbox .blue.play24tv:hover {
+    background: #0284F3;
 }
 .postcard .postcard__tagbox .blue.playintarchive:hover {
     background: #222222;
@@ -2312,11 +2318,17 @@ position: relative;
 .postcard .postcard__tagbox .blue.playrtd:hover {
     background: #77BC1F;
 }
+.postcard .postcard__tagbox .blue.playsmotreshka:hover {
+    background: #1E334B;
+}
 .postcard .postcard__tagbox .blue.playfmovies:hover {
     background: #53BEB3;
 }
 .postcard .postcard__tagbox .blue.playnepu:hover {
     background: #C700A6;
+}
+.postcard .postcard__tagbox .blue.playwink:hover {
+    background: #FF5C20;
 }
 .postcard .postcard__tagbox .blue.playng:hover {
     background: #FFD511;
