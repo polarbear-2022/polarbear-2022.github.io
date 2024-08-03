@@ -2248,6 +2248,7 @@ position: relative;
 .postcard .postcard__tagbox .blue.playdzen,
 .postcard .postcard__tagbox .blue.playsmotrim,
 .postcard .postcard__tagbox .blue.playstart,
+.postcard .postcard__tagbox .blue.playmagellantv,
 .postcard .postcard__tagbox .blue.playmail,
 .postcard .postcard__tagbox .blue.playmnogoser,
 .postcard .postcard__tagbox .blue.playard,
@@ -2255,6 +2256,7 @@ position: relative;
 .postcard .postcard__tagbox .blue.playintarchive,
 .postcard .postcard__tagbox .blue.playrg,
 .postcard .postcard__tagbox .blue.playren,
+.postcard .postcard__tagbox .blue.playcinego,
 .postcard .postcard__tagbox .blue.playng,
 .postcard .postcard__tagbox .blue.playkrasview,
 .postcard .postcard__tagbox .blue.playokko,
@@ -2267,6 +2269,7 @@ position: relative;
 .postcard .postcard__tagbox .blue.playmega,
 .postcard .postcard__tagbox .blue.playsmotreshka,
 .postcard .postcard__tagbox .blue.playwink,
+.postcard .postcard__tagbox .blue.playws8,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
@@ -2276,8 +2279,14 @@ position: relative;
 .postcard .postcard__tagbox .blue.play24tv:hover {
     background: #0284F3;
 }
+.postcard .postcard__tagbox .blue.playcinego:hover {
+    background: #41F4FF;
+}
 .postcard .postcard__tagbox .blue.playintarchive:hover {
     background: #222222;
+}
+.postcard .postcard__tagbox .blue.playmagellantv:hover {
+    background: #091C2F;
 }
 .postcard .postcard__tagbox .blue.playmega:hover {
     background: #D31B00;
@@ -2329,6 +2338,9 @@ position: relative;
 }
 .postcard .postcard__tagbox .blue.playwink:hover {
     background: #FF5C20;
+}
+.postcard .postcard__tagbox .blue.playws8:hover {
+    background: #323744;
 }
 .postcard .postcard__tagbox .blue.playng:hover {
     background: #FFD511;
