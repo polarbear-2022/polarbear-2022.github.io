@@ -2262,6 +2262,7 @@ position: relative;
 .postcard .postcard__tagbox .blue.playokko,
 .postcard .postcard__tagbox .blue.playrtd,
 .postcard .postcard__tagbox .blue.playnepu,
+.postcard .postcard__tagbox .blue.playpbs,
 .postcard .postcard__tagbox .blue.playbbcplay,
 .postcard .postcard__tagbox .blue.playfmovies,
 .postcard .postcard__tagbox .blue.playgoogledrive,
@@ -2335,6 +2336,9 @@ position: relative;
 }
 .postcard .postcard__tagbox .blue.playnepu:hover {
     background: #C700A6;
+}
+.postcard .postcard__tagbox .blue.playpbs:hover {
+    background: #2D3EC6;
 }
 .postcard .postcard__tagbox .blue.playwink:hover {
     background: #FF5C20;
@@ -3031,7 +3035,7 @@ tbody tr td {
     border-radius: 0;
 }
 #modal-fullscreen-xl .modal-footer, #modal-fullscreen-xl-2 .modal-footer {
-    background-color: #2264ab;
+    background-color: #11486a;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1980' height='100' preserveAspectRatio='none' viewBox='0 0 1980 100'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1041%26quot%3b)' fill='none'%3e%3crect width='1980' height='100' x='0' y='0' fill='rgba(14%2c 42%2c 71%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c49 C 99%2c53.4 297%2c77.2 495%2c71 C 693%2c64.8 792%2c19.4 990%2c18 C 1188%2c16.6 1287%2c60.4 1485%2c64 C 1683%2c67.6 1881%2c41.6 1980%2c36L1980 100L0 100z' fill='rgba(34%2c 100%2c 171%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1041'%3e%3crect width='1980' height='100' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-size: cover;
@@ -3039,25 +3043,54 @@ tbody tr td {
     border: none;
     border-radius: 0;
 }
-
 #modal_series.modal-fullscreen-xl .modal-body,
-#modal_series_arctic_vets.modal-fullscreen-xl .modal-body,
 #modal_series_tnot.modal-fullscreen-xl .modal-body {
     overflow-y: auto;
     background-color: #186b9d;
     background-image: url(../images/bg/bg_snow.png);
     border: none;
 }
+#modal_series_arctic_vets.modal-fullscreen-xl .modal-body {
+    overflow-y: auto;
+    background-color: #186b9d;
+    background-image: url(../images/other/arctic_vets/arctic_vets_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+}
+#modal_series_wildes_skandinavien.modal-fullscreen-xl .modal-body {
+    overflow-y: auto;
+    background-color: #186b9d;
+    background-image: url(../images/other/wildes_skandinavien/wildes_skandinavien_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+}
+#modal_series_wild_scandinavia.modal-fullscreen-xl .modal-body {
+    overflow-y: auto;
+    background-color: #186b9d;
+    background-image: url(../images/other/wild_scandinavia/wild_scandinavia_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+}
 #modal_series.modal-fullscreen-xl .modal-header,
 #modal_series_arctic_vets.modal-fullscreen-xl .modal-header,
-#modal_series_tnot.modal-fullscreen-xl .modal-header {
+#modal_series_tnot.modal-fullscreen-xl .modal-header,
+#modal_series_wildes_skandinavien.modal-fullscreen-xl .modal-header,
+#modal_series_wild_scandinavia.modal-fullscreen-xl .modal-header {
     background-color: #186b9d;
     border: none;
     border-radius: 0;
 }
 #modal_series.modal-fullscreen-xl .modal-footer,
 #modal_series_arctic_vets.modal-fullscreen-xl .modal-footer,
-#modal_series_tnot.modal-fullscreen-xl .modal-footer {
+#modal_series_tnot.modal-fullscreen-xl .modal-footer,
+#modal_series_wildes_skandinavien.modal-fullscreen-xl .modal-header,
+#modal_series_wild_scandinavia.modal-fullscreen-xl .modal-footer {
     background-color: #186b9d;
     border: none;
     border-radius: 0;
@@ -3321,7 +3354,7 @@ tbody tr td {
     height: 40px;
     box-shadow: 0px 10 10px 10px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
-    background: #2264ab;
+    background: #11486a;
     margin: 0 auto;
     position: relative;
     display: block;
@@ -3534,6 +3567,9 @@ tbody tr td {
 /* --------------------------- /////////// END ССЫЛКИ /////////// --------------------------- */
 
 /* --------------------------- /////////// КНОПКИ /////////// --------------------------- */
+/*** ПЕРЕОПРЕДЕЛЕНИЕ СТИЛЕЙ КНОПОК BS ***/
+.btn-primary{color:#fff;background-color:#11486a;border-color:#338FC2}
+.btn-primary:hover{color:#fff;background-color:#338FC2;border-color:#11486a}
 /*** КНОПКА ОК ***/
 .btn-social {
     position: relative;
