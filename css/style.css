@@ -3077,11 +3077,21 @@ tbody tr td {
     background-position: center center;
     border: none;
 }
+#modal_series_wildest_arctic.modal-fullscreen-xl .modal-body {
+    overflow-y: auto;
+    background-color: #186b9d;
+    background-image: url(../images/other/wildest_arctic/wildest_arctic_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+}
 #modal_series.modal-fullscreen-xl .modal-header,
 #modal_series_arctic_vets.modal-fullscreen-xl .modal-header,
 #modal_series_tnot.modal-fullscreen-xl .modal-header,
 #modal_series_wildes_skandinavien.modal-fullscreen-xl .modal-header,
-#modal_series_wild_scandinavia.modal-fullscreen-xl .modal-header {
+#modal_series_wild_scandinavia.modal-fullscreen-xl .modal-header,
+#modal_series_wildest_arctic.modal-fullscreen-xl .modal-header {
     background-color: #186b9d;
     border: none;
     border-radius: 0;
@@ -3090,7 +3100,8 @@ tbody tr td {
 #modal_series_arctic_vets.modal-fullscreen-xl .modal-footer,
 #modal_series_tnot.modal-fullscreen-xl .modal-footer,
 #modal_series_wildes_skandinavien.modal-fullscreen-xl .modal-header,
-#modal_series_wild_scandinavia.modal-fullscreen-xl .modal-footer {
+#modal_series_wild_scandinavia.modal-fullscreen-xl .modal-footer,
+#modal_series_wildest_arctic.modal-fullscreen-xl .modal-footer {
     background-color: #186b9d;
     border: none;
     border-radius: 0;
