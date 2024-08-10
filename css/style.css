@@ -544,7 +544,9 @@ p.highlighted_paragraph {
     font-style: italic;
     line-height: 1;
 }
-
+.lh_1 {
+    line-height: 1;
+}
 .figure-caption {
     color: #c5e1ec;
     font-family: "Montserrat", sans-serif;
@@ -5085,6 +5087,16 @@ input {
     font-size: 1.5em;
     line-height: 0.8;
 }
+
+
+/*
+.list-wrapper li span:nth-child(1) br {
+display: block;
+content: "";
+margin-top: 0;
+}
+*/
+
 .list-wrapper li span:nth-child(2) {
     font-style: italic;
     line-height: 0.9;
@@ -7424,6 +7436,10 @@ input#tabToggle02_13:checked ~ tab-content:not(:nth-of-type(2)) {display: none;}
 
 input#tabToggle01_14:checked ~ tab-content:not(:nth-of-type(1)),
 input#tabToggle02_14:checked ~ tab-content:not(:nth-of-type(2)) {display: none;}
+
+input#tabToggle01_15:checked ~ tab-content:not(:nth-of-type(1)),
+input#tabToggle02_15:checked ~ tab-content:not(:nth-of-type(2)),
+input#tabToggle03_15:checked ~ tab-content:not(:nth-of-type(3)) {display: none;}
 
 /* ЦЕНТРИРОВАНИЕ ЭЛЕМЕНТОВ */
 .centered {
