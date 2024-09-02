@@ -1183,6 +1183,15 @@ button {
     display: inline-block;
     vertical-align: middle;
 }
+.webcam-min {
+    background-image: url(../images/icons/webcam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
 .www {
     background-image: url(../images/icons/www.png);
     background-repeat: no-repeat;
@@ -1230,6 +1239,11 @@ button {
         font-size: 1rem;
     }
 }
+.navbar {
+    /*padding: .5rem 1rem;*/
+	padding: 0;
+}
+
 .navbar-dark {
     background-color: rgba(17, 72, 106, 0);
     border: 1px solid rgba(0, 0, 0, 0);
@@ -1295,6 +1309,14 @@ button {
 .navbar-toggler {
     border: none;
     cursor: pointer;
+}
+@media (max-width: 374px) {
+   /*.navbar-toggler {
+    padding: .25rem .15rem;
+   }*/
+   .logo_text_block_2 {
+    display: none;
+   }
 }
 #hamburger .icon-bar {
     display: block;
@@ -6861,6 +6883,18 @@ a.zoo_world_link:hover {
     background: #8fbedc;
     display: block;
     margin-bottom: 1rem;
+}
+.webcam_zoo_icon {
+    display: inline-block;
+    vertical-align: middle;
+	fill: #ffffff;
+}
+.webcam_zoo_icon:hover {
+    fill: #c5e1ec;
+}
+.list-world-zoo .js-video-button .fa-youtube:hover {
+    color: #c5e1ec;
+	fill: #c5e1ec;
 }
 /*** ФЛАГИ ***/
 .list-world-zoo ul li.flag_list:before {
