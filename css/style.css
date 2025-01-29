@@ -2599,6 +2599,7 @@ position: relative;
 .postcard .postcard__tagbox .blue.playsmotreshka,
 .postcard .postcard__tagbox .blue.playwink,
 .postcard .postcard__tagbox .blue.playws8,
+.postcard .postcard__tagbox .blue.playpeervideo,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
 }
@@ -2673,6 +2674,9 @@ position: relative;
 }
 .postcard .postcard__tagbox .blue.playws8:hover {
     background: #323744;
+}
+.postcard .postcard__tagbox .blue.playpeervideo:hover {
+    background: #231a1a;
 }
 .postcard .postcard__tagbox .blue.playng:hover {
     background: #FFD511;
