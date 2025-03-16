@@ -2600,8 +2600,13 @@ position: relative;
 .postcard .postcard__tagbox .blue.playwink,
 .postcard .postcard__tagbox .blue.playws8,
 .postcard .postcard__tagbox .blue.playpeervideo,
+.postcard .postcard__tagbox .blue.playflicksbar,
 .postcard .postcard__tagbox .blue.play {
     font-weight: 700;
+}
+.postcard .postcard__tagbox .blue.playflicksbar:hover {
+    background: rgb(148,117,252);
+    background: linear-gradient(180deg, rgba(230,107,184,1) 0%, rgba(148,117,252,1) 55%);
 }
 .postcard .postcard__tagbox .blue.play:hover {
     background: #22AAE1;
