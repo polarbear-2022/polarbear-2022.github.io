@@ -1742,7 +1742,19 @@ button {
     text-align: center;
     border-radius: 4px;
 }
-.video-box-info img {
+.video-box-blue {
+    display: block;
+    width: 100%;
+    height: 450px;
+    padding-left: 10vw;
+    background-image: url(../images/info/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+}
+.video-box-info img, .video-box-blue img {
     height: 30%;
     width: 100%;
     margin: 10vh 0 0 0;
@@ -1757,6 +1769,7 @@ button {
 }
 .video-box h3,
 .video-box2 h3,
+.video-box-blue h3,
 .video-box-info h3 {
     text-align: center;
     display: block;
@@ -1764,6 +1777,7 @@ button {
 }
 .video-box a,
 .video-box2 a,
+.video-box-blue a,
 .video-box-info a {
     cursor: pointer;
 }
